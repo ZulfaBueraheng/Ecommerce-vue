@@ -47,8 +47,88 @@
           <v-col cols="12" sm="12" class="mt-n10">
             <Client />
           </v-col>
+          <v-col cols="12" sm="12" class="mt-n10">
+            <v-row>
+              <v-col cols="12" sm="4">
+                <v-card class="mx-auto my-12 pb-4" max-width="374">
+                  <v-row>
+                    <v-col cols="12" sm="6">
+                      <v-card-item class="mt-10">
+                        <v-card-title class="text-center">
+                          Smart watch
+                        </v-card-title>
+                      </v-card-item>
+                        <v-card-text>
+                          <div class="text-center">
+                            Small paltes, salades & sandwitches
+                          </div>
+                          <div class="text-center">
+                            <v-btn color="black">But Now</v-btn>
+                          </div>
+                        </v-card-text>
+                    </v-col>
+                    <v-col cols="12" sm="6">
+                      <v-img height="250" class="mx-4" src="/image/2.jpg">
+                      </v-img>
+                    </v-col>
+                  </v-row>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="4">
+                <v-card class="mx-auto my-12 pb-4" max-width="374">
+                  <v-row>
+                    <v-col cols="12" sm="6">
+                      <v-card-item class="mt-10">
+                        <v-card-title class="text-center">
+                          Smart watch
+                        </v-card-title>
+                      </v-card-item>
+                        <v-card-text>
+                          <div class="text-center">
+                            Small paltes, salades & sandwitches
+                          </div>
+                          <div class="text-center">
+                            <v-btn color="black">But Now</v-btn>
+                          </div>
+                        </v-card-text>
+                    </v-col>
+                    <v-col cols="12" sm="6">
+                      <v-img height="250" class="mx-4" src="/image/2.jpg">
+                      </v-img>
+                    </v-col>
+                  </v-row>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="4">
+                <v-card class="mx-auto my-12 pb-4" max-width="374">
+                  <v-row>
+                    <v-col cols="12" sm="6">
+                      <v-card-item class="mt-10">
+                        <v-card-title class="text-center">
+                          Smart watch
+                        </v-card-title>
+                      </v-card-item>
+                        <v-card-text>
+                          <div class="text-center">
+                            Small paltes, salades & sandwitches
+                          </div>
+                          <div class="text-center">
+                            <v-btn color="black">But Now</v-btn>
+                          </div>
+                        </v-card-text>
+                    </v-col>
+                    <v-col cols="12" sm="6">
+                      <v-img height="250" class="mx-4" src="/image/2.jpg">
+                      </v-img>
+                    </v-col>
+                  </v-row>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-col>
         </v-row>
       </v-container>
+      <Footer />
     </v-main>
   </v-app>
 </template>
@@ -58,7 +138,7 @@ import NavBar from "../components/NavBar.vue";
 import Popular from "../components/Popular.vue";
 import Featured from "../components/Featured.vue";
 import Client from '../components/Client.vue';
-
+import Footer from "@/components/Footer.vue";
 </script>
 
 <script>
