@@ -44,6 +44,9 @@
           <v-col cols="12" sm="12" class="mt-n10">
             <Featured />
           </v-col>
+          <v-col cols="12" sm="12" class="mt-n10">
+            <Client />
+          </v-col>
         </v-row>
       </v-container>
     </v-main>
@@ -54,13 +57,14 @@
 import NavBar from "../components/NavBar.vue";
 import Popular from "../components/Popular.vue";
 import Featured from "../components/Featured.vue";
+import Client from '../components/Client.vue';
+
 </script>
 
 <script>
 export default {
   data() {
     return {
-Client
       items: [
         {
           src: "image/1.jpg",
