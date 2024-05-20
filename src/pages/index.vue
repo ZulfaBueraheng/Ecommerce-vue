@@ -25,15 +25,24 @@
                 </v-row>
               </v-carousel-item>
             </v-carousel>
-            <v-toolbar color="transparent">
-              <v-toolbar-title>Popular Product</v-toolbar-title>
-              <v-spacer></v-spacer>
-              <v-btn icon="mdi mdi-chevron-left"></v-btn>
-              <v-btn icon="mdi mdi-chevron-right"></v-btn>
-            </v-toolbar>
-            <v-col cols="12" sm="12" class="mt-n10">
-              <Popular />
-            </v-col>
+          </v-col>
+          <v-toolbar color="transparent">
+            <v-toolbar-title>Popular Product</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-btn icon="mdi mdi-chevron-left"></v-btn>
+            <v-btn icon="mdi mdi-chevron-right"></v-btn>
+          </v-toolbar>
+          <v-col cols="12" sm="12" class="mt-n10">
+            <Popular />
+          </v-col>
+          <v-toolbar color="transparent" class="mt-n10">
+            <v-toolbar-title>Featured Product</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-btn icon="mdi mdi-chevron-left"></v-btn>
+            <v-btn icon="mdi mdi-chevron-right"></v-btn>
+          </v-toolbar>
+          <v-col cols="12" sm="12" class="mt-n10">
+            <Featured />
           </v-col>
         </v-row>
       </v-container>
@@ -44,12 +53,14 @@
 <script setup>
 import NavBar from "../components/NavBar.vue";
 import Popular from "../components/Popular.vue";
+import Featured from "../components/Featured.vue";
 </script>
 
 <script>
 export default {
   data() {
     return {
+Client
       items: [
         {
           src: "image/1.jpg",
